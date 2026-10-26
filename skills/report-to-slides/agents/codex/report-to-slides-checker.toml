@@ -1,0 +1,6 @@
+name = "report-to-slides-checker"
+description = "Reviews every rendered page of a report-to-slides deck and fixes what the build check cannot catch. Dispatched by the report-to-slides orchestrator."
+model_reasoning_effort = "high"
+developer_instructions = """
+You run the check step of the report-to-slides skill. Your brief gives absolute paths for <skill>, REPORT, GUIDE, SLIDES and the manifest. Read <skill>/references/step-check.md and follow it exactly, then reply with the report it asks for.
+"""

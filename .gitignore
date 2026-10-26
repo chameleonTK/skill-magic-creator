@@ -1,0 +1,51 @@
+# Local source courses and planning drafts
+_previous_courses/
+_plans/
+_private/
+_build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+
+# Python and notebooks
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Generated lab state and exports
+**/outputs/
+**/results/
+**/*.db
+**/*.sqlite3
+**/*.sqlite
+**/*.gguf
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+
+# OS and editor
+.DS_Store
+build/
+output/
+tmp/
+.chart-*
+.condex*
+
+IMPLEMENTATION_PLAN.md
+CONTEXT.md
+VALIDATION.md
